@@ -40,37 +40,38 @@
 //	}
 //	return 1;
 //}
-int cmp(const void* e1, const void* e2)
-{
-	return (*(int*)e1 - *(int*)e2);
-}
-int canReorderDoubled(int* A, int ASize)
-{
-	int i = 0;
-	int count = 0;
-	qsort(A, ASize, 4, cmp);
-	while (i < ASize )
-	{
-		int j = 0;
-		while (j < ASize)
-		{
-			if (A[i] == 2 * A[j]&& i!=j)
-			{
-				count++;
-				A[i] = 1000000;
-				A[j] = 1000000;
-				break;
-			}
-			j++;
-		}
-		i++;
-	}
-	if (count == ASize / 2)
-	{
-		return 1;
-	}
-	return 0;
-}
+//erro--超时
+//int cmp(const void* e1, const void* e2)
+//{
+//	return (*(int*)e1 - *(int*)e2);
+//}
+//int canReorderDoubled(int* A, int ASize)
+//{
+//	int i = 0;
+//	int count = 0;
+//	qsort(A, ASize, 4, cmp);
+//	while (i < ASize )
+//	{
+//		int j = 0;
+//		while (j < ASize)
+//		{
+//			if (A[i] == 2 * A[j]&& i!=j)
+//			{
+//				count++;
+//				A[i] = 1000000;
+//				A[j] = 1000000;
+//				break;
+//			}
+//			j++;
+//		}
+//		i++;
+//	}
+//	if (count == ASize / 2)
+//	{
+//		return 1;
+//	}
+//	return 0;
+//}
 
 int main()
 {
