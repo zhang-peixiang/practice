@@ -1,3 +1,0 @@
-/home/zpx/practice/leetcode_999/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zpx/practice/leetcode_999/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zpx/practice/leetcode_999/cmake-build-debug/CMakeFiles/leetcode_999.dir

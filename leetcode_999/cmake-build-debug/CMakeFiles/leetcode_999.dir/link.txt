@@ -1,1 +1,0 @@
-/usr/bin/gcc -g   CMakeFiles/leetcode_999.dir/test.c.o  -o leetcode_999 
