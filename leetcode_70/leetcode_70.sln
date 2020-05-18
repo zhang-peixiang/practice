@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leetcode_70", "leetcode_70\leetcode_70.vcxproj", "{0810C093-5A81-4B28-92B2-9F46E3D46ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0810C093-5A81-4B28-92B2-9F46E3D46ADD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0810C093-5A81-4B28-92B2-9F46E3D46ADD}.Debug|Win32.Build.0 = Debug|Win32
+		{0810C093-5A81-4B28-92B2-9F46E3D46ADD}.Release|Win32.ActiveCfg = Release|Win32
+		{0810C093-5A81-4B28-92B2-9F46E3D46ADD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
