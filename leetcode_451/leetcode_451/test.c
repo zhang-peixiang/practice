@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+// ¿¼ÂÇ²»È«
 //char * frequencySort(char * s)
 //{
 //	int len = strlen(s);
@@ -113,7 +115,7 @@ char * frequencySort(char * s)
 	{
 		maxcount = arr[0];
 		tmp = 0;
-		for (i = 0; i < 63; i++)
+		for (i = 0; i < 95; i++)
 		{
 			if (arr[i]>maxcount)
 			{
@@ -139,7 +141,7 @@ char * frequencySort(char * s)
 
 int main()
 {
-	char s[] = " 33";
+	char s[] = "a 33";
 	char* a = frequencySort(s);
 
 	return 0;
